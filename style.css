@@ -170,47 +170,6 @@ footer {
   padding: 1rem 2rem;
 }
 
-/* Progress Bars - Skills Section */
-.bars .line {
-    height: 10px;             /* Height of the progress bar */
-    background-color: #00bcd4; /* Color of the bar */
-    transition: width 1s ease-out; /* Smooth transition for width */
-    border-radius: 5px;         /* Optional: add rounded corners to the bar */
-}
-
-/* Specific widths for each bar (dynamic percentages in CSS) */
-.bars .html {
-    width: 90%;
-}
-
-.bars .sql {
-    width: 50%;
-}
-
-.bars .mongodb {
-    width: 50%;
-}
-
-.bars .dm {
-    width: 85%;
-}
-
-.bars .css {
-    width: 90%;
-}
-
-.bars .js {
-    width: 90%;
-}
-
-.bars .php {
-    width: 80%;
-}
-
-.bars .mysql {
-    width: 80%;
-}
-
 /* Responsive Design */
 @media (min-width: 768px) {
   .about-content {
@@ -231,10 +190,5 @@ footer {
   .project-item {
     margin: 1rem;
     flex: 1 1 300px;
-  }
-
-  /* Adjusting skill bars for larger screens */
-  .bars {
-    width: 60%;
   }
 }
